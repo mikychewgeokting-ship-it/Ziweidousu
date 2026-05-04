@@ -1,3 +1,5 @@
+Index html
+
 <!DOCTYPE html>
 <html lang="zh-Hant-MY">
 <head>
@@ -140,7 +142,7 @@ body{font-family:'Noto Serif TC',serif;background:#0f172a;color:#e2e8f0}
 <h2 class="text-2xl font-bold text-white">完整版詳細命理解讀</h2>
 <div class="inline-block bg-red-500/20 text-red-400 text-xs px-3 py-1 rounded-full border border-red-500/50">限時免費領取</div>
 <p class="text-gray-300 text-sm">一對一精準解析你的命格優勢、人生轉折、趨吉避凶方法</p>
-<a href="https://wa.me/你的号码" class="whatsapp-btn flex items-center justify-center gap-2 mx-auto max-w-xs">
+<a href="https://wa.me/60172722014" class="whatsapp-btn flex items-center justify-center gap-2 mx-auto max-w-xs">
 <i data-lucide="message-circle" class="w-6 h-6"></i> 立即添加WhatsApp
 </a>
 <p class="text-xs text-gray-500">領取【完整版紫微斗數命盤詳解】</p>
@@ -170,7 +172,9 @@ body{font-family:'Noto Serif TC',serif;background:#0f172a;color:#e2e8f0}
 </p>
 </div>
 <p class="text-gray-300 text-sm text-center">您的專屬命盤已生成。<br>請添加WhatsApp領取完整詳解報告。</p>
-<button onclick="closeModal()" class="btn-primary">知道了，去添加WhatsApp</button>
+<a href="https://wa.me/60172722014" class="whatsapp-btn flex items-center justify-center gap-2">
+<i data-lucide="message-circle" class="w-5 h-5"></i> 立即添加WhatsApp
+</a>
 </div>
 </div>
 </div>
@@ -211,7 +215,7 @@ setTimeout(()=>toast.classList.remove('show'),3000);
 
 function copyAllText(){
 const texts=["中華第一神術·紫微斗數","專屬命主命盤","根據出生時辰精準排盤","立即解析完整內容","完整版詳細命理解讀"];
-navigator.clipboard.writeText(texts.join('\\n')).then(()=>showToast('文案已複製！')).catch(()=>showToast('複製失敗'));
+navigator.clipboard.writeText(texts.join('\n')).then(()=>showToast('文案已複製！')).catch(()=>showToast('複製失敗'));
 }
 
 function startDivination(){
